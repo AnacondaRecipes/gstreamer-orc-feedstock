@@ -29,13 +29,11 @@ test:
   commands:
     - test -f $PREFIX/bin/orcc  # [unix]
     - test -f $PREFIX/include/orc-0.4/orc/orc.h  # [unix]
-    - test -f $PREFIX/lib/liborc-0.4.0${SHLIB_EXT}  # [unix]
     - test -f $PREFIX/lib/liborc-0.4${SHLIB_EXT}  # [unix]
     - test -f $PREFIX/lib/pkgconfig/orc-0.4.pc  # [unix]
     - if not exist %LIBRARY_BIN%\\orcc.exe exit 1  # [win]
-    - if not exist %LIBRARY_INC%\\orc\\orc.h exit 1  # [win]
-    - if not exist %LIBRARY_BIN%\\orc-0.4.0.dll exit 1  # [win]
-    - if not exist %LIBRARY_BIN%\\orc-0.4.dll exit 1  # [win]
+    - if not exist %LIBRARY_INC%\\orc-0.4\\orc\\orc.h exit 1  # [win]
+    - if not exist %LIBRARY_BIN%\\orc-0.4-0.dll exit 1  # [win]
     - if not exist %LIBRARY_LIB%\\orc-0.4.lib exit 1  # [win]
     - if not exist %LIBRARY_LIB%\\pkgconfig\\orc-0.4.pc exit 1  # [win]
 
