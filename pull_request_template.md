@@ -1,12 +1,12 @@
-{package} {version} {:snowflake:}
+gstreamer-orc {version}
 
-**Destination channel:** {Snowflake | defaults}
+**Destination channel:** main
 
 ### Links
 
 - [{ticket_number}]() 
-- [Upstream repository]()
-- [Upstream changelog/diff]()
+- [Upstream repository](https://gitlab.freedesktop.org/gstreamer)
+- [Upstream changelog/diff](https://gitlab.freedesktop.org/gstreamer/orc/-/blob/main/RELEASE)
 - Relevant dependency PRs:
   - ...
 

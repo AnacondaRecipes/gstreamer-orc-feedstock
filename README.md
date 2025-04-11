@@ -1,13 +1,13 @@
-About <pkg_name>-feedstock
+About gstreamer-orc-feedstock
 =======================
 
 Feedstock license: [BSD-3-Clause](LICENSE)
 
-Home: <home_url>
+Home: https://gitlab.freedesktop.org/gstreamer/orc
 
-Package license: <pkg_license>
+Package license: BSD-2-Clause AND BSD-3-Clause
 
-Summary: <pkg_summary>
+Summary: Orc - Optimized Inner Loop Runtime Compiler
 
 
 Current release info
@@ -15,19 +15,19 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-<pkg_name>-green.svg)](https://anaconda.org/anaconda/<pkg_name>) | [![Conda Downloads](https://img.shields.io/conda/dn/anaconda/<pkg_name>.svg)](https://anaconda.org/anaconda/<pkg_name>) | [![Conda Version](https://img.shields.io/conda/vn/anaconda/<pkg_name>.svg)](https://anaconda.org/anaconda/<pkg_name>) | [![Conda Platforms](https://img.shields.io/conda/pn/anaconda/<pkg_name>.svg)](https://anaconda.org/anaconda/<pkg_name>) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-gstreamer-orc-green.svg)](https://anaconda.org/anaconda/gstreamer-orc) | [![Conda Downloads](https://img.shields.io/conda/dn/anaconda/gstreamer-orc.svg)](https://anaconda.org/anaconda/gstreamer-orc) | [![Conda Version](https://img.shields.io/conda/vn/anaconda/gstreamer-orc.svg)](https://anaconda.org/anaconda/gstreamer-orc) | [![Conda Platforms](https://img.shields.io/conda/pn/anaconda/gstreamer-orc.svg)](https://anaconda.org/anaconda/gstreamer-orc) |
 
-Installing <pkg_name>
+Installing gstreamer-orc
 ==================
 
-Installing `<pkg_name>` from the main channel can be achieved by:
+Installing `gstreamer-orc` from the main channel can be achieved by:
 
 ```
-conda install <pkg_name>
+conda install gstreamer-orc
 ```
 
-It is possible to list all of the versions of `<pkg_name>` available on your platform with `conda`:
+It is possible to list all of the versions of `gstreamer-orc` available on your platform with `conda`:
 
 ```
-conda search <pkg_name>
+conda search gstreamer-orc
 ```
