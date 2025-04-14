@@ -50,7 +50,7 @@ about:
   license_family: BSD
   license_file: COPYING
   dev_url: https://gitlab.freedesktop.org/gstreamer/orc
-  doc_url: https://gitlab.freedesktop.org/gstreamer/orc
+  doc_url: https://gstreamer.pages.freedesktop.org/orc/docs/latest/
 
 extra:
   recipe-maintainers:
