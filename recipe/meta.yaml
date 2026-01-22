@@ -1,6 +1,6 @@
 # package is named gstreamer-orc to avoid conflicts with apache orc
 {% set name = "gstreamer-orc" %}
-{% set version = "0.4.41" %}
+{% set version = "0.4.42" %}
 
 package:
   name: {{ name|lower }}
@@ -8,18 +8,19 @@ package:
 
 source:
   url: https://gstreamer.freedesktop.org/data/src/orc/orc-{{ version }}.tar.xz
-  sha256: cb1bfd4f655289cd39bc04642d597be9de5427623f0861c1fc19c08d98467fa2
+  sha256: 7ec912ab59af3cc97874c456a56a8ae1eec520c385ec447e8a102b2bd122c90c
 
 build:
   number: 0
   run_exports:
-    # From: https://gitlab.freedesktop.org/gstreamer/orc/-/blob/0.4.41/README?ref_type=tags
+    # From: https://gitlab.freedesktop.org/gstreamer/orc/-/blob/0.4.42/README?ref_type=tags
     # The 0.4 series of Orc releases will be API and ABI compatible, and
     # will be incompatible with the 0.5 series when it comes out.
     - {{ pin_subpackage('gstreamer-orc', max_pin='x.x') }}
 
 requirements:
   build:
+    - {{ stdlib('c') }}
     - {{ compiler('c') }}
     - pkg-config
     - meson
